@@ -11,7 +11,7 @@ import Analysis.CustomProc as ba
 
 
 
-gv.runningfrom = "PC"; # PC designsafe
+gv.runningfrom = "designsafe"; # PC designsafe
 gv.runjob_loc = __file__;
 
 
