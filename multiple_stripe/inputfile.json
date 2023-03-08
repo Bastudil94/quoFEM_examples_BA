@@ -1,0 +1,60 @@
+{
+    "Applications": {
+        "FEM": {
+            "Application": "OpenSeesPy",
+            "ApplicationData": {
+                "MS_Path": "{Current_Dir}/.",
+                "PA_Path": "{Current_Dir}/.",
+                "mainScript": "runjob.py",
+                "parametersScript": "params.py",
+                "postprocessScript": ""
+            }
+        },
+        "UQ": {
+            "Application": "Dakota-UQ",
+            "ApplicationData": {
+            }
+        }
+    },
+    "EDP": [
+        {
+            "length": 1,
+            "name": "x",
+            "type": "scalar"
+        }
+    ],
+    "FEM": {
+    },
+    "UQ": {
+        "parallelExecution": true,
+        "samplingMethodData": {
+            "method": "LHS",
+            "samples": 20,
+            "seed": 554
+        },
+        "saveWorkDir": true,
+        "uqEngine": "Dakota",
+        "uqType": "Forward Propagation"
+    },
+    "isSurrogate": false,
+    "localAppDir": "C:/SimCenter/quoFEM_Windows_Download",
+    "randomVariables": [
+        {
+            "distribution": "Normal",
+            "inputType": "Parameters",
+            "mean": 0,
+            "name": "par1",
+            "refCount": 1,
+            "stdDev": 1,
+            "value": "RV.par1",
+            "variableClass": "Uncertain"
+        }
+    ],
+    "remoteAppDir": "/work2/00477/tg457427/frontera/SimCenterBackendApplications/v4.0.0",
+    "remoteAppWorkingDir": "/work2/00477/tg457427/frontera/SimCenterBackendApplications/v4.0.0",
+    "resultType": "SimCenterUQResultsSampling",
+    "runType": "runningRemote",
+    "summary": [
+    ],
+    "workingDir": "C:/Users/bastudil/Documents/quoFEM/RemoteWorkDir"
+}

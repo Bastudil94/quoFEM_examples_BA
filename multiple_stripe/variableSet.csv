@@ -1,0 +1,16 @@
+ModelName,GM_ID,ScaleFactor
+model1,eq12132a,0.2
+model1,eq12132b,0.2
+model1,eq12012a,0.2
+model1,eq12012b,0.2
+model1,eq12091a,0.2
+model1,eq12132a,1
+model1,eq12132b,1
+model1,eq12012a,1
+model1,eq12012b,1
+model1,eq12091a,1
+model1,eq12132a,1.5
+model1,eq12132b,1.5
+model1,eq12012a,1.5
+model1,eq12012b,1.5
+model1,eq12091a,1.5
